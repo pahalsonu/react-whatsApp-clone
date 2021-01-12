@@ -27,7 +27,7 @@
   background-color: white;
   height: 35px;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 .sidebar_searchContainer > input {
   border: none;
@@ -36,4 +36,10 @@
 .sidebar_searchContainer > .MuiSvgIcon-root {
   color: gray;
   padding: 10px;
+}
+
+.sidebar_chats {
+  flex: 1;
+  background-color: white;
+  
 }
