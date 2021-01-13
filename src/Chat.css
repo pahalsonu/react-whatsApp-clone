@@ -33,7 +33,6 @@
   background-repeat: repeat;
   background-position: center;
   padding: 30px;
-  overflow: scroll;
 }
 
 .chat_message {
@@ -45,9 +44,9 @@
   width: fit-content;
 }
 .chat_reciever {
-    background-color: #dcf8c6;
-    margin-left: auto;
-  }
+  background-color: #dcf8c6;
+  margin-left: auto;
+}
 
 .chat_name {
   position: absolute;
@@ -59,4 +58,24 @@
   margin-left: 10px;
   font-size: xx-small;
   font-weight: 500;
+}
+.chat_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
+}
+.chat_footer > form {
+  flex: 1;
+  display: flex;
+}
+.chat_footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+}
+.chat_footer > form > button {
+  border: none;
 }
