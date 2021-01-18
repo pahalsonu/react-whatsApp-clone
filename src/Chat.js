@@ -14,7 +14,7 @@ function Chat() {
         [])
     const sendMessage = (e) => {
         e.preventDefault();
-        setInput("");
+        setInput();
 
     }
     return (
@@ -36,13 +36,10 @@ function Chat() {
                         <MoreVert />
                     </IconButton>
                 </div>
-
             </div>
-
             <div className="chat_body">
-
                 <p className={`chat_message ${true
-                    && `chat_reciever`}`}>  <span className="chat_name">Sonu Pahal</span> Hey guys
+                    && `chat_reciever`}`}>  <span className="chat_name">Sonu Pahal</span> {input}
                 <span className="chat_timestamp">3.52 PM</span></p>
             </div>
             <div className="chat_footer">
